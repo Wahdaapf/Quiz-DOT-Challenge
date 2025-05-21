@@ -102,7 +102,7 @@ export default function Quiz() {
         }}
       >
         <Stack spacing={3}>
-          <Timer initialTime={300} onTimeUp={handleTimeUp} />
+          <Timer initialTime={60} onTimeUp={handleTimeUp} />
           <Typography variant="h6" fontWeight="bold" color="primary">
             Soal {current + 1} dari {questions.length}
           </Typography>
